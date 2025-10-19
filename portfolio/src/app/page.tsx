@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { siteConfig } from "@/src/data/site";
+import { siteConfig } from "@/data/site";
 
 export default function Home() {
   return (
