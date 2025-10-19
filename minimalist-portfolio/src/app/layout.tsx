@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Navbar } from "@/components/Navbar";
 import "./globals.css";
 
 const inter = Inter({
@@ -8,8 +9,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "John Doe - Senior Software Engineer",
-  description: "15+ years building scalable systems and leading engineering teams. Portfolio showcasing technical expertise and project achievements.",
+  title: "Yeo Jia Hui - Full Stack Developer",
+  description: "3+ years building scalable systems and collaborating with engineering teams. Portfolio showcasing technical expertise and project achievements.",
 };
 
 export default function RootLayout({
@@ -20,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} font-sans antialiased dark:bg-gray-900 dark:text-white`}>
+        <Navbar />
         {children}
       </body>
     </html>

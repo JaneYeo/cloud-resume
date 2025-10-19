@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Mail, MapPin, Github, Linkedin } from "lucide-react";
+import { Mail, MapPin, Github, Linkedin, Download } from "lucide-react";
 
 export function ProfileSection() {
   return (
@@ -68,6 +68,13 @@ export function ProfileSection() {
               className="p-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
             >
               <Linkedin size={20} />
+            </a>
+            <a 
+              href="/resume.pdf" 
+              download="John_Doe_Resume.pdf"
+              className="p-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
+            >
+              <Download size={20} />
             </a>
           </div>
         </div>
