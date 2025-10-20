@@ -4,17 +4,22 @@ const skillCategories = [
   {
     title: "Languages",
     icon: Code,
-    skills: ["TypeScript", "Python", "Go"]
+    skills: ["TypeScript", "Java", "PHP", "C# (.NET)", "JavaScript", "Dart"]
   },
   {
     title: "Backend", 
     icon: Server,
-    skills: ["Node.js", "PostgreSQL", "Redis"]
+    skills: ["Node.js", "MYSQL", "Firebase", "Supabase"]
+  },
+  {
+    title: "Framework", 
+    icon: Server,
+    skills: ["Next.js", "Flutter", "Laravel", "WordPress"]
   },
   {
     title: "Cloud",
     icon: Cloud,
-    skills: ["AWS", "Kubernetes", "Docker"]
+    skills: ["GCP", "AWS"]
   }
 ];
 

@@ -21,14 +21,15 @@ export function ProfileSection() {
         {/* Name and Title */}
         <div className="space-y-3">
           <h1 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">
-            John Doe
+            Yeo Jia Hui
           </h1>
           <h2 className="text-lg md:text-xl text-gray-600 dark:text-gray-400">
-            Senior Software Engineer
+            Software Engineering Student • Full‑Stack Developer
           </h2>
           <div className="h-px w-16 bg-gray-200 dark:bg-gray-700 mx-auto my-4"></div>
           <p className="text-sm md:text-base text-gray-600 dark:text-gray-400 max-w-xs mx-auto leading-relaxed">
-            15+ years building scalable systems and leading engineering teams
+            UMPSA CS undergrad. Grew SEO traffic 400% for The Asia Press, built PWAs and
+            AI/Whisper apps, and placed 3rd nationally in Huawei ICT Competition.
           </p>
         </div>
 
@@ -37,24 +38,24 @@ export function ProfileSection() {
           <div className="flex items-center justify-center space-x-2">
             <Mail className="w-4 h-4 text-gray-600 dark:text-gray-400" />
             <a 
-              href="mailto:john.doe@example.com" 
+              href="mailto:janeyeojiahui@gmail.com" 
               className="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
             >
-              john.doe@example.com
+              janeyeojiahui@gmail.com
             </a>
           </div>
           
           <div className="flex items-center justify-center space-x-2">
             <MapPin className="w-4 h-4 text-gray-600 dark:text-gray-400" />
             <span className="text-sm text-gray-600 dark:text-gray-400">
-              San Francisco, CA
+              Kuala Lumpur, Malaysia (Remote Available)
             </span>
           </div>
 
           {/* Social Links */}
           <div className="flex items-center justify-center space-x-4 pt-2">
             <a 
-              href="https://github.com" 
+              href="https://github.com/JaneYeo" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
@@ -62,7 +63,7 @@ export function ProfileSection() {
               <Github size={20} />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/yeo-jia-hui/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
@@ -70,8 +71,8 @@ export function ProfileSection() {
               <Linkedin size={20} />
             </a>
             <a 
-              href="/resume.pdf" 
-              download="John_Doe_Resume.pdf"
+              href="/CV_Yeo Jia Hui.pdf" 
+              download="CV_Yeo Jia Hui.pdf"
               className="p-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
             >
               <Download size={20} />

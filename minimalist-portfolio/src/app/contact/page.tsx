@@ -7,7 +7,7 @@ export default function Contact() {
         <div className="text-center mb-16">
           <h1 className="text-3xl font-bold mb-4">Contact</h1>
           <p className="text-gray-600 dark:text-gray-400 max-w-xl mx-auto">
-            Let's connect and discuss how we can work together
+            Lets connect and discuss internship or collaboration opportunities.
           </p>
         </div>
 
@@ -20,10 +20,10 @@ export default function Contact() {
                 <div>
                   <h3 className="text-lg font-medium mb-1">Email</h3>
                   <a 
-                    href="mailto:john.doe@example.com"
+                    href="mailto:janeyeojiahui@gmail.com"
                     className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
                   >
-                    john.doe@example.com
+                    janeyeojiahui@gmail.com
                   </a>
                 </div>
               </div>
@@ -33,10 +33,10 @@ export default function Contact() {
                 <div>
                   <h3 className="text-lg font-medium mb-1">Phone</h3>
                   <a 
-                    href="tel:+15551234567"
+                    href="tel:+601110028338"
                     className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
                   >
-                    +1 (555) 123-4567
+                    +60 11-1002 8338
                   </a>
                 </div>
               </div>
@@ -46,7 +46,7 @@ export default function Contact() {
                 <div>
                   <h3 className="text-lg font-medium mb-1">Location</h3>
                   <p className="text-gray-600 dark:text-gray-400">
-                    San Francisco, CA
+                    Kuala Lumpur, Malaysia (Remote Available)
                   </p>
                 </div>
               </div>
@@ -56,7 +56,7 @@ export default function Contact() {
             <div className="mt-8">
               <div className="flex space-x-4">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/JaneYeo"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
@@ -64,21 +64,14 @@ export default function Contact() {
                   <Github className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/yeo-jia-hui/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
                 >
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
-                >
-                  <Twitter className="w-5 h-5" />
-                </a>
+                
               </div>
             </div>
           </div>

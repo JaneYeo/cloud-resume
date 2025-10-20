@@ -2,51 +2,51 @@ import { Award, Trophy, Star, Target } from 'lucide-react';
 
 const achievements = [
   {
-    title: "AWS Solutions Architect",
-    category: "Certification",
-    year: "2023",
-    description: "Certified AWS Solutions Architect with expertise in cloud architecture and deployment strategies.",
-    icon: Award,
-    featured: true
-  },
-  {
-    title: "Tech Innovation Award",
-    category: "Recognition",
-    year: "2022",
-    description: "Recognized for developing a scalable microservices architecture that improved system performance by 40%.",
+    title: "Huawei ICT Competition 2024-2025 Malaysia",
+    category: "Third Prize National Competition",
+    year: "3 Dec 2024",
+    description: "Competing with other university students in Malaysia, achieving a top 20% ranking among 1,200 students from 40 universities and colleges across Malaysia",
     icon: Trophy,
     featured: true
   },
   {
-    title: "Open Source Contributor",
-    category: "Community",
-    year: "2021-2023",
-    description: "Active contributor to multiple open source projects with 500+ commits and 50+ stars across repositories.",
+    title: "GODAMLah! Hackathon 2024",
+    category: "Finalist",
+    year: "Aug - Dec 2024",
+    description: "Developed a prototype to secure user personal data with Blockchain Certificate Technology, engineered with Next.js and TypeScript.",
     icon: Star,
     featured: true
   },
   {
-    title: "Team Leadership Excellence",
-    category: "Leadership",
-    year: "2022",
-    description: "Led a team of 8 developers to deliver a critical project 2 weeks ahead of schedule.",
+    title: "BRIDG3 Hackathon 2024",
+    category: "National Level",
+    year: "27 - 28 July 2024",
+    description: "Redesigned the z-Fund Distribution and Management System using Blockchain technology via Maschain API, enhancing security and transparency in fund allocation, handling 1,000+ concurrent transactions.",
     icon: Target,
-    featured: false
+    featured: true
   },
   {
-    title: "Performance Optimization Expert",
-    category: "Technical",
-    year: "2021",
-    description: "Reduced application load time by 60% through advanced optimization techniques and caching strategies.",
+    title: "Huawei HCIA-Artificial Intelligence",
+    category: "Certification",
+    year: "11 July 2024",
+    description: "Certified Huawei Artificial Intelligence Engineer and completed the AI training course",
     icon: Award,
-    featured: false
+    featured: true
   },
   {
-    title: "Mentorship Program Lead",
-    category: "Community",
-    year: "2020-2023",
-    description: "Mentored 15+ junior developers, helping them advance their careers and technical skills.",
+    title: "RunCloud x AWS Cloud Practitioners Challenge",
+    category: "Semi-finalist",
+    year: "Oct 2022",
+    description: "Leveraged AWS services to design and deploy Grocerline, a prototype e-commerce platform.",
     icon: Star,
+    featured: true
+  },
+  {
+    title: "Dean’s List / First Class Honours (UMPSA)",
+    category: "Academic Achievement",
+    year: "2021, 2022, 2024",
+    description: "Consistent top performer; Dean’s List multiple semesters and First Class Honours.",
+    icon: Award,
     featured: false
   }
 ];

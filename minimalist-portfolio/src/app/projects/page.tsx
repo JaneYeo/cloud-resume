@@ -2,39 +2,48 @@ import { Code, ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "Full-stack e-commerce solution with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.",
-    technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "Docker"],
-    image: "/api/placeholder/400/250",
-    github: "https://github.com",
-    live: "https://example.com",
+    title: "The Asia Press SEO Revamp",
+    description: "Designed and executed SEO strategy using long‑tail keywords, optimized metadata and internal linking, boosting traffic by 400% in 3 months.",
+    technologies: ["WordPress", "SEO", "Content Strategy", "Analytics"],
+    image: "/minimalist-portfolio/public/The Asia Press Jetpack.png",
+    github: "",
+    live: "https://theasiapress.com",
     featured: true
   },
   {
-    title: "Task Management App",
-    description: "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-    technologies: ["Next.js", "TypeScript", "Socket.io", "MongoDB", "Tailwind CSS"],
-    image: "/api/placeholder/400/250",
-    github: "https://github.com",
-    live: "https://example.com",
+    title: "DOSM Pahang PWA",
+    description: "State statistics Progressive Web App using MVC backend; cut public data lookup time by 40% with interactive charts for non‑technical users.",
+    technologies: ["PWA", "MVC", "Charts", "Web"],
+    image: "",
+    github: "",
+    live: "",
     featured: true
   },
   {
-    title: "Weather Dashboard",
-    description: "Real-time weather dashboard with location-based forecasts, interactive maps, and historical data visualization.",
-    technologies: ["Vue.js", "Chart.js", "OpenWeather API", "PWA"],
-    image: "/api/placeholder/400/250",
-    github: "https://github.com",
-    live: "https://example.com",
+    title: "Speech‑to‑Text Academic Report Assistant (Final Year Project)",
+    description: "Fine‑tuned Whisper AI for Malaysian academic terms, enabled real‑time transcription, and embedded the model into a Flutter app with backend + DB.",
+    technologies: ["Whisper AI", "Flutter", "Realtime", "Backend", "Supabase"],
+    image: "",
+    github: "",
+    live: "",
     featured: false
   },
   {
-    title: "Blog CMS",
-    description: "Content management system for blogs with markdown support, SEO optimization, and multi-author capabilities.",
-    technologies: ["React", "Express", "MongoDB", "Markdown", "SEO"],
-    image: "/api/placeholder/400/250",
-    github: "https://github.com",
-    live: "https://example.com",
+    title: "Grocerline (AWS Challenge)",
+    description: "Prototype e‑commerce deployed on AWS services during RunCloud x AWS challenge.",
+    technologies: ["AWS", "E‑commerce"],
+    image: "",
+    github: "",
+    live: "",
+    featured: false
+  },
+  {
+    title: "The Allen Chan Enterprise Website",
+    description: "Design and developed business showcase website followed client's instructions.",
+    technologies: ["WordPress", "Business Showcase"],
+    image: "",
+    //github: "",
+    live: "https://acenter.com.my/",
     featured: false
   }
 ];
@@ -66,15 +75,17 @@ export default function Projects() {
                   </div>
                 </div>
                 <div className="flex space-x-4 mt-4 md:mt-0">
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
-                  >
-                    <Github className="w-4 h-4 mr-1" />
-                    Code
-                  </a>
+                  {project.github && (
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
+                    >
+                      <Github className="w-4 h-4 mr-1" />
+                      Code
+                    </a>
+                  )}
                   <a
                     href={project.live}
                     target="_blank"

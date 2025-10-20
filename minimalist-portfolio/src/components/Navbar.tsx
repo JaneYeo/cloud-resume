@@ -9,7 +9,6 @@ const navItems = [
   { name: 'About', href: '/' },
   { name: 'Projects', href: '/projects' },
   { name: 'Achievements', href: '/achievements' },
-  { name: 'Blogs', href: '/blogs' },
   { name: 'Contact', href: '/contact' },
 ];
 
@@ -24,7 +23,7 @@ export function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
             <span className="text-lg font-medium text-gray-900 dark:text-white">
-              John Doe
+              Yeo Jia Hui
             </span>
           </Link>
 

@@ -1,21 +1,9 @@
 const experiences = [
   {
-    title: "Senior Software Engineer",
-    company: "Tech Corp",
-    period: "2020 - Present",
-    description: "Led development of microservices architecture, 40% improvement in system performance"
-  },
-  {
-    title: "Software Engineer", 
-    company: "Innovation Labs",
-    period: "2017 - 2020",
-    description: "Architected cloud-native applications, mentored junior developers"
-  },
-  {
-    title: "Full Stack Developer",
-    company: "StartUp Inc", 
-    period: "2015 - 2017",
-    description: "Built scalable web applications using React and Node.js"
+    title: "Web Designer and Developer (Internship)",
+    company: "Dreamit Real Solutions Sdn Bhd | Selangor, Malaysia",
+    period: "March 2023 - Aug 2023",
+    description: "Designed and develop website, 20% improvement in user enquiries"
   }
 ];
 
