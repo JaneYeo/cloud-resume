@@ -7,7 +7,7 @@ export default function Contact() {
         <div className="text-center mb-16">
           <h1 className="text-3xl font-bold mb-4">Contact</h1>
           <p className="text-gray-600 dark:text-gray-400 max-w-xl mx-auto">
-            Let's connect and discuss internship or collaboration opportunities.
+            Let&apos;s connect and discuss internship or collaboration opportunities.
           </p>
         </div>
 
@@ -130,7 +130,7 @@ export default function Contact() {
                   id="subject"
                   name="subject"
                   className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 focus:outline-none focus:border-gray-900 dark:focus:border-white bg-white dark:bg-gray-800 text-gray-900 dark:text-white"
-                  placeholder="Let's work together"
+                  placeholder="Let&apos;s work together"
                 />
               </div>
 
