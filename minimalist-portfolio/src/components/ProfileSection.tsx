@@ -58,6 +58,7 @@ export function ProfileSection() {
               href="https://github.com/JaneYeo" 
               target="_blank" 
               rel="noopener noreferrer"
+              aria-label="Visit GitHub profile"
               className="p-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
             >
               <Github size={20} />
@@ -66,6 +67,7 @@ export function ProfileSection() {
               href="https://www.linkedin.com/in/yeo-jia-hui/" 
               target="_blank" 
               rel="noopener noreferrer"
+              aria-label="Visit LinkedIn profile"
               className="p-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
             >
               <Linkedin size={20} />
@@ -73,6 +75,7 @@ export function ProfileSection() {
             <a 
               href="/CV_Yeo Jia Hui.pdf" 
               download="CV_Yeo Jia Hui.pdf"
+              aria-label="Download CV"
               className="p-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
             >
               <Download size={20} />

@@ -78,7 +78,7 @@ export default function Achievements() {
                       <p className="text-gray-600 dark:text-gray-400">{achievement.description}</p>
                     </div>
                   </div>
-                  <span className="text-sm text-gray-500 dark:text-gray-400 mt-1 md:mt-0">
+                  <span className="text-sm text-gray-500 dark:text-gray-400 mt-1 md:mt-0 pl-9 md:pl-0">
                     {achievement.year}
                   </span>
                 </div>

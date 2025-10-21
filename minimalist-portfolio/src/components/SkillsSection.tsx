@@ -2,24 +2,24 @@ import { Code, Server, Cloud } from "lucide-react";
 
 const skillCategories = [
   {
-    title: "Languages",
+    title: "Frontend",
     icon: Code,
-    skills: ["TypeScript", "Java", "PHP", "C# (.NET)", "JavaScript", "Dart"]
+    skills: ["Flutter", "WordPress", "HTML", "CSS", "JavaScript", "React.js"]
   },
   {
     title: "Backend", 
     icon: Server,
-    skills: ["Node.js", "MYSQL", "Firebase", "Supabase"]
+    skills: ["Laravel", "Java", "PHP", "C# (.NET)", "Dart", "TypeScript"]
   },
   {
-    title: "Framework", 
+    title: "Database", 
     icon: Server,
-    skills: ["Next.js", "Flutter", "Laravel", "WordPress"]
+    skills: ["MySQL", "Firebase", "Supabase"]
   },
   {
-    title: "Cloud",
+    title: "DevOps",
     icon: Cloud,
-    skills: ["GCP", "AWS"]
+    skills: ["GCP", "AWS", "Github"]
   }
 ];
 

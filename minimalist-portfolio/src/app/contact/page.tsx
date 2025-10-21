@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone, Send, Github, Linkedin, Twitter } from 'lucide-react';
+import { Mail, MapPin, Phone, Send, Github, Linkedin } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -7,7 +7,7 @@ export default function Contact() {
         <div className="text-center mb-16">
           <h1 className="text-3xl font-bold mb-4">Contact</h1>
           <p className="text-gray-600 dark:text-gray-400 max-w-xl mx-auto">
-            Lets connect and discuss internship or collaboration opportunities.
+            Let's connect and discuss internship or collaboration opportunities.
           </p>
         </div>
 
@@ -59,6 +59,7 @@ export default function Contact() {
                   href="https://github.com/JaneYeo"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Visit GitHub profile"
                   className="p-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
                 >
                   <Github className="w-5 h-5" />
@@ -67,6 +68,7 @@ export default function Contact() {
                   href="https://www.linkedin.com/in/yeo-jia-hui/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Visit LinkedIn profile"
                   className="p-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
                 >
                   <Linkedin className="w-5 h-5" />

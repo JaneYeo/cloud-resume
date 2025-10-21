@@ -1,4 +1,4 @@
-import { Calendar, Clock, ArrowRight } from 'lucide-react';
+import { Calendar, Clock } from 'lucide-react';
 
 const blogPosts = [
   {
